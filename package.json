@@ -1,0 +1,26 @@
+{
+  "name": "express-js-server",
+  "version": "1.0.0",
+  "description": "Though it is possible to parse requests and send responses, work with I/O, etc. without the aid of a framework, it is the equivalent of re-inventing the wheel as I demonstrated in my previous project: \"first-node-server\" where I parsed text input from a user and wrote it to a file without using a framework.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanWinslow/express-js-server.git"
+  },
+  "author": "Jordan Winslow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JordanWinslow/express-js-server/issues"
+  },
+  "homepage": "https://github.com/JordanWinslow/express-js-server#readme"
+}
